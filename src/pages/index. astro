@@ -17,8 +17,8 @@ import Layout from '../layouts/Layout.astro';
       <strong>Art</strong>, undergrrround comiXmaker.
     </p>
     <p>
-      <a href="https://yamwhatyam.kalimero.rocks/">Yam What Yam</a><br />
-      <a href="https://nest-in-pace.netlify.app/">Nest In Pace, Quéméré</a>
+      <a href="https://yamwhatyam.kalimero.ink/">Yam What Yam</a><br />
+      <a href="https://nest-in-pace.vercel.app/">Nest In Pace, Quéméré</a>
     </p>
 
     <h2>Picaboo</h2>
@@ -48,8 +48,8 @@ import Layout from '../layouts/Layout.astro';
   <section class="social">
     <h3>So-SOCIALS</h3>
     <ul class="social-links">
-      <li><a href="https://instagram.com/kalimero_666/">Instagram</a></li>
-      <li><a href="https://facebook.com/kalimerox19/">Facebook</a></li>
+      <li><a href="https://instagram.com/kalimero_____666/">Instagram</a></li>
+      <li><a href="https://facebook.com/kalimero.officiel/">Facebook</a></li>
       <li><a href="https://www.youtube.com/@kalimero_Von_Bulow/">Youtube</a></li>
       <li><a href="https://metapixl.com/kalimero">Pixelfed</a></li>
       <li><a href="https://dalek.zone/a/kalimero_666/video-channels">Peertube</a></li>
@@ -63,7 +63,7 @@ import Layout from '../layouts/Layout.astro';
 
     <h3>e-CONOMIX</h3>
     <ul class="social-links">
-      <li><a href="https://bookomatic.hstn.me/">Book-O-Matics</a></li>
+      <li><a href="https://ko-fi.com/kalimero_666/shop">Book-O-Matics</a></li>
       <li><a href="https://ko-fi.com/kalimero_666/">Ko-Fi</a></li>
       <li><a href="https://opensea.io/kalimero_666/">Opensea</a></li>
       <li><a href="https://patreon.com/Kalimero666/">Patreon</a></li>
@@ -103,10 +103,10 @@ import Layout from '../layouts/Layout.astro';
 
     <div class="showcase">
       <div class="showcase-item">
-        <a href="https://kalimero.rocks/">
+        <a href="https://kalimero.ink/">
           <img src="/kalimero.png" alt="A screenshot of https://kalimero.rocks/" />
-          <h3>kalimero.rocks</h3>
-          <p>https://kalimero.rocks/</p>
+          <h3>kalimero.ink</h3>
+          <p>https://kalimero.ink/</p>
         </a>
       </div>
 
@@ -135,26 +135,26 @@ import Layout from '../layouts/Layout.astro';
       </div>
 
       <div class="showcase-item">
-        <a href="https://yamwhatyam.netlify.app/">
+        <a href="https://yamwhatyam.vercel.app/">
           <img src="/yamwhatyam.png" alt="A screenshot of https://yamwhatyam.netlify.app/" />
           <h3>Yam What Yam</h3>
-          <p>https://yamwhatyam.netlify.app/</p>
+          <p>https://yamwhatyam.vercel.app/</p>
         </a>
       </div>
 
       <div class="showcase-item">
-        <a href="https://picaboo.netlify.app/">
+        <a href="https://picaboo.vercel.app/">
           <img src="/picaboo.png" alt="A screenshot of https://picaboo.netlify.app/" />
           <h3>Picaboo</h3>
-          <p>https://picaboo.netlify.app/</p>
+          <p>https://picaboo.vercel.app/</p>
         </a>
       </div>
 
       <div class="showcase-item">
-        <a href="https://nest-in-pace.netlify.app/">
+        <a href="https://nest-in-pace.vercel.app/">
           <img src="/nestinpace.png" alt="A screenshot of https://nest-in-pace.netlify.app/" />
           <h3>Nest In Pace</h3>
-          <p>https://nest-in-pace.netlify.app/</p>
+          <p>https://nest-in-pace.vercel.app/</p>
         </a>
       </div>
     </div>
