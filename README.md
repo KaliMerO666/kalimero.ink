@@ -63,8 +63,8 @@ Site personnel présentant les différents projets et créations de Kalimero :
 
 ## 🔗 Liens
 
-- Site principal: [kalimero.rocks](https://kalimero.rocks)
-- Instagram: [@kalimero_666](https://instagram.com/kalimero_666/)
+- Site principal: [kalimero.ink](https://kalimero.ink)
+- Instagram: [@kalimero_666](https://instagram.com/kalimero_____666/)
 - GitHub: [@kalimerO666](https://github.com/kalimerO666/)
 
 ## 🛠️ Technologies
