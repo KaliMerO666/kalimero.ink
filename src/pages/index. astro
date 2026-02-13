@@ -1,1 +1,195 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
 
+<Layout title="Station-Service">
+  <section class="hero">
+    <div class="hero-images">
+      <img src="/desert.jpg" alt="The arizona desert" />
+      <img src="/moidesert01.png" alt="A floating cow-boy wearing a snake skin jacket" />
+    </div>
+  </section>
+
+  <section class="intro">
+    <h2>Hi There !</h2>
+    <p>
+      Once upon a time my name was <strong>Quéméré</strong>, and I used to be a post-modern, wild at
+      <strong>Art</strong>, undergrrround comiXmaker.
+    </p>
+    <p>
+      <a href="https://yamwhatyam.kalimero.rocks/">Yam What Yam</a><br />
+      <a href="https://nest-in-pace.netlify.app/">Nest In Pace, Quéméré</a>
+    </p>
+
+    <h2>Picaboo</h2>
+    <p>
+      Since I got my degree at the famous <strong>ERG, Ecole de Recherche Graphique</strong> in 
+      <strong>Brüsel</strong>, also had to deal with <strong>ADHD</strong>, I spent my
+      <strong>life</strong> trying things.
+    </p>
+
+    <h2></h2>
+    <blockquote>
+      "Everything I learned in my life, I've learned it because I decided to
+      try something new" (David Lynch)
+    </blockquote>
+
+    <h2>From Hell, With Love</h2>
+    <p>
+      With that <strong>behaviour</strong> I've spent a few
+      <strong>Seasons in Hell</strong>, stepped <strong>across the border</strong>,
+      came back on Earth @ summer 21 as a
+      <strong>born-dead</strong> tweety.
+    </p>
+
+    <h2>Ecce Kalimero</h2>
+  </section>
+
+  <section class="social">
+    <h3>So-SOCIALS</h3>
+    <ul class="social-links">
+      <li><a href="https://instagram.com/kalimero_666/">Instagram</a></li>
+      <li><a href="https://facebook.com/kalimerox19/">Facebook</a></li>
+      <li><a href="https://www.youtube.com/@kalimero_Von_Bulow/">Youtube</a></li>
+      <li><a href="https://metapixl.com/kalimero">Pixelfed</a></li>
+      <li><a href="https://dalek.zone/a/kalimero_666/video-channels">Peertube</a></li>
+      <li><a href="https://talk.artsculture.media/@kalimero">Mastodon</a></li>
+    </ul>
+    <p><a href="https://linktr.ee/kalimero">...and more →</a></p>
+    <p>
+      My nickname is <strong>@kalimero_666</strong><br />
+      I am <strong>Kalimero Von Bülow</strong>
+    </p>
+
+    <h3>e-CONOMIX</h3>
+    <ul class="social-links">
+      <li><a href="https://bookomatic.hstn.me/">Book-O-Matics</a></li>
+      <li><a href="https://ko-fi.com/kalimero_666/">Ko-Fi</a></li>
+      <li><a href="https://opensea.io/kalimero_666/">Opensea</a></li>
+      <li><a href="https://patreon.com/Kalimero666/">Patreon</a></li>
+      <li><a href="https://tipeee.com/kalimero/">Tipeee</a></li>
+      <li><a href="https://kalimero.myspreadshop.fr">Goodies</a></li>
+    </ul>
+    <p><a href="https://linktr.ee/kalimero">...and more →</a></p>
+
+    <div class="blog-links">
+      <p>Check out my Ghost blog !</p>
+      <a href="https://rockghostsrock.digitalpress.blog">
+        <img src="/rgr.webp" alt="Visit my Ghost blog at rockghostsrock.digitalpress.blog" />
+      </a>
+      <p>and visit my Porn-O-One :</p>
+      <a href="https://xxx19.digitalpress.blog">
+        <img src="/prngrfx.webp" alt="Visit my Ghost blog at rockghostsrock.digitalpress.blog" />
+      </a>
+      <p>
+        <a href="https://rockghostsrock.digitalpress.blog/">Rock, Ghost, Rock !</a><br />
+        <a href="https://xxx19.digitalpress.blog/">PRNGRFX</a>
+      </p>
+    </div>
+  </section>
+
+  <section class="showcase-section">
+    <h2>Showcase</h2>
+    <p>
+      Kalimero is versatile...<br />
+      So be my guesss, feel <strong>free</strong>, exxxplore my Whiteborrred Jungle which is a work in progress !
+    </p>
+
+    <p>
+      <a href="https://ko-fi.com/L4L463Q3N">
+        <img src="https://storage.ko-fi.com/cdn/kofi4.png?v=3" alt="Buy Me a Coffee at ko-fi.com" style="max-width: 200px;" />
+      </a>
+    </p>
+
+    <div class="showcase">
+      <div class="showcase-item">
+        <a href="https://kalimero.rocks/">
+          <img src="/kalimero.png" alt="A screenshot of https://kalimero.rocks/" />
+          <h3>kalimero.rocks</h3>
+          <p>https://kalimero.rocks/</p>
+        </a>
+      </div>
+
+      <div class="showcase-item">
+        <a href="https://rockghostsrock.digitalpress.blog/">
+          <img src="/rgr.png" alt="A screenshot of https://rockghostsrock.digitalpress.blog/" />
+          <h3>Rock, Ghost, Rock !</h3>
+          <p>https://rockghostsrock.digitalpress.blog/</p>
+        </a>
+      </div>
+
+      <div class="showcase-item">
+        <a href="https://bookomatic.hstn.me/">
+          <img src="/bookomatics.png" alt="A screenshot of https://bookomatic.hstn.me/" />
+          <h3>Book-O-Matics</h3>
+          <p>https://bookomatic.hstn.me/</p>
+        </a>
+      </div>
+
+      <div class="showcase-item">
+        <a href="https://xxx19.digitalpress.blog/">
+          <img src="/prngrfx.png" alt="A screenshot of https://xxx19.digitalpress.blog/" />
+          <h3>PRNGRFX</h3>
+          <p>https://xxx19.digitalpress.blog/</p>
+        </a>
+      </div>
+
+      <div class="showcase-item">
+        <a href="https://yamwhatyam.netlify.app/">
+          <img src="/yamwhatyam.png" alt="A screenshot of https://yamwhatyam.netlify.app/" />
+          <h3>Yam What Yam</h3>
+          <p>https://yamwhatyam.netlify.app/</p>
+        </a>
+      </div>
+
+      <div class="showcase-item">
+        <a href="https://picaboo.netlify.app/">
+          <img src="/picaboo.png" alt="A screenshot of https://picaboo.netlify.app/" />
+          <h3>Picaboo</h3>
+          <p>https://picaboo.netlify.app/</p>
+        </a>
+      </div>
+
+      <div class="showcase-item">
+        <a href="https://nest-in-pace.netlify.app/">
+          <img src="/nestinpace.png" alt="A screenshot of https://nest-in-pace.netlify.app/" />
+          <h3>Nest In Pace</h3>
+          <p>https://nest-in-pace.netlify.app/</p>
+        </a>
+      </div>
+    </div>
+
+    <p>
+      <a href="https://fr.tipeee.com/kalimero">Soutenez KaliMero sur Tipeee</a>
+    </p>
+  </section>
+</Layout>
+
+<style>
+  .hero-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+
+  .intro {
+    margin: 2rem 0;
+  }
+
+  blockquote {
+    font-style: italic;
+    padding: 1rem;
+    border-left: 3px solid var(--color-accent);
+    margin: 1rem 0;
+  }
+
+  .blog-links {
+    margin: 2rem 0;
+  }
+
+  .blog-links img {
+    max-width: 200px;
+    margin: 1rem 0;
+  }
+</style>
