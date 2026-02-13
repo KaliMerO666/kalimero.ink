@@ -1,1 +1,242 @@
+---
+interface Props {
+  title: string;
+}
 
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Station-Service - Kalimero's Portfolio" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1><a href="https://kalimero.rocks">Kalimero</a></h1>
+        <ul>
+          <li><a href="https://yamwhatyam.kalimero.rocks">Yam What Yam</a></li>
+          <li><a href="https://picaboo.netlify.app">Picaboo</a></li>
+          <li><a href="https://nest-in-pace.netlify.app/">Nest In Pace</a></li>
+          <li><a href="https://nest-in-pace.netlify.app/">Rock, Ghost, Rock !</a></li>
+          <li><a href="https://nest-in-pace.netlify.app/">Chronic</a></li>
+          <li><a href="https://sxssxxsssxxx.blogspot.com/">Rayon X</a></li>
+          <li><a href="https://nest-in-pace.netlify.app/">PRNGRFX</a></li>
+          <li><a href="https://bookomatic.hstn.me">Shop</a></li>
+          <li><a href="https://nest-in-pace.netlify.app/">Goodies</a></li>
+        </ul>
+        <div class="theme-toggle">
+          <button id="theme-toggle-light">Use light theme</button>
+          <button id="theme-toggle-dark">Use dark theme</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer>
+      <img src="/desert.jpg" alt="The arizona desert" class="footer-image" />
+      <ul>
+        <li><a href="https://www.kalimero.rocks">Kalimero's official website</a></li>
+        <li><a href="https://instagram.com/kalimero_666/">Instagram</a></li>
+        <li><a href="https://github.com/kalimerO666/">Github</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    --color-bg: #ffffff;
+    --color-text: #000000;
+    --color-accent: #ff6b6b;
+  }
+
+  [data-theme="dark"] {
+    --color-bg: #000000;
+    --color-text: #ffffff;
+    --color-accent: #ff6b6b;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    font-family: system-ui, sans-serif;
+    background: var(--color-bg);
+    color: var(--color-text);
+  }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    padding: 2rem;
+    border-bottom: 1px solid var(--color-text);
+  }
+
+  nav h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  nav h1 a {
+    color: var(--color-text);
+    text-decoration: none;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  nav a {
+    color: var(--color-text);
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    color: var(--color-accent);
+  }
+
+  .theme-toggle {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .theme-toggle button {
+    background: none;
+    border: 1px solid var(--color-text);
+    color: var(--color-text);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+
+  .theme-toggle button:hover {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+    color: white;
+  }
+
+  main {
+    flex: 1;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  footer {
+    padding: 2rem;
+    border-top: 1px solid var(--color-text);
+  }
+
+  .footer-image {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 1rem;
+  }
+
+  footer ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  footer a {
+    color: var(--color-text);
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    color: var(--color-accent);
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin: 2rem 0 1rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin: 1.5rem 0 1rem;
+  }
+
+  p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+
+  .showcase {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+
+  .showcase-item {
+    border: 1px solid var(--color-text);
+    padding: 1rem;
+  }
+
+  .showcase-item img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .showcase-item h3 {
+    margin-top: 0;
+  }
+
+  .social-links {
+    list-style: none;
+    margin: 1rem 0;
+  }
+
+  .social-links li {
+    margin: 0.5rem 0;
+  }
+</style>
+
+<script>
+  // Theme toggle functionality
+  const themeToggleLight = document.getElementById('theme-toggle-light');
+  const themeToggleDark = document.getElementById('theme-toggle-dark');
+
+  themeToggleLight?.addEventListener('click', () => {
+    document.documentElement.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'light');
+  });
+
+  themeToggleDark?.addEventListener('click', () => {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    localStorage.setItem('theme', 'dark');
+  });
+
+  // Set initial theme
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+</script>
